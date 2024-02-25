@@ -118,8 +118,7 @@ Callback = <function> - The function of the button.
 
 BladeBallTab:AddButton({
 	Name = "AlchemyHub🤑",
-	loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
   	end    
 })
 
@@ -129,7 +128,7 @@ Callback = <function> - The function of the button.
 ]]
 
 BladeBallTab:AddButton({
-	Name = "AzelfHub",
+	Name = "AzelfHub🔥",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/multiversal123/Azelf-Hub/main/0bladeball"))()
   	end    
