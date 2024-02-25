@@ -275,3 +275,88 @@ local Section = BloxFruitsTab:AddSection({
 --[[
 Name = <string> - The name of the section.
 ]]
+
+BloxFruitsTab:AddButton({
+	Name = "FreeFraiHub🆒",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Padupo/scrnohop/main/FreeFrai'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+BloxFruitsTab:AddButton({
+	Name = "Blox fruits🍀",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rasputin-bf.glitch.me/bloxfruits.lua"))()
+
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+BloxFruitsTab:AddButton({
+	Name = "Mbm Hub🆒💯🔥🤑🗿",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/m1M-Plqer819/any/main/mbmxhub/0135"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+BloxFruitsTab:AddButton({
+	Name = "AnnieHub🤑",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+BloxFruitsTab:AddButton({
+	Name = "Perd Hub (key system)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/PerdHub/Blosfruitscript/main/PerdLoader"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+BloxFruitsTab:AddButton({
+	Name = "AlchemyHub🆒",
+	Callback = function()
+      		loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+BloxFruitsTab:AddButton({
+	Name = "appleHub🍎",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/AppleHubOnTop/main/Loader.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
