@@ -117,8 +117,9 @@ Callback = <function> - The function of the button.
 ]]
 
 BladeBallTab:AddButton({
-	Name = "AlchemyHub🤑",
-      		loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
+	Name = "AzelfHub🔥",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/multiversal123/Azelf-Hub/main/0bladeball"))()
   	end    
 })
 
@@ -128,9 +129,21 @@ Callback = <function> - The function of the button.
 ]]
 
 BladeBallTab:AddButton({
-	Name = "AzelfHub🔥",
+	Name = "Blade Ball(Key System)",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/multiversal123/Azelf-Hub/main/0bladeball"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Blade/main/Ball"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+BladeBallTab:AddButton({
+	Name = "AlchemyHub🍀",
+	Callback = function()
+      		loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
   	end    
 })
 
