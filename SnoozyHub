@@ -105,7 +105,7 @@ Callback = <function> - The function of the button.
 ]]
 
 BladeBallTab:AddButton({
-	Name = "auto parry",
+	Name = "auto parry💯",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/AutoBlock"))() 
   	end    
@@ -117,8 +117,8 @@ Callback = <function> - The function of the button.
 ]]
 
 BladeBallTab:AddButton({
-	Name = "Button!",
-	Callback = function()
+	Name = "AlchemyHub🤑",
+	loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
       		print("button pressed")
   	end    
 })
