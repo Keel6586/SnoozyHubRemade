@@ -173,7 +173,7 @@ Name = <string> - The name of the section.
 ]]
 
 DaHoodTab:AddButton({
-	Name = "SpaceX",
+	Name = "SpaceX💯",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
   	end    
@@ -185,9 +185,9 @@ Callback = <function> - The function of the button.
 ]]
 
 DaHoodTab:AddButton({
-	Name = "Button!",
+	Name = "Faded💯",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
   	end    
 })
 
@@ -197,9 +197,9 @@ Callback = <function> - The function of the button.
 ]]
 
 DaHoodTab:AddButton({
-	Name = "Button!",
+	Name = "Agent💯",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))() 
   	end    
 })
 
