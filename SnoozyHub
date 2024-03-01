@@ -542,9 +542,9 @@ Callback = <function> - The function of the button.
 ]]
 
 STab:AddButton({
-	Name = "Button!",
+	Name = "Neverlose",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/neverlose.xyz/main/Doors.lua"))()
   	end    
 })
 
