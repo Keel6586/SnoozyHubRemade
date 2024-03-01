@@ -610,9 +610,9 @@ Name = <string> - The name of the section.
 ]]
 
 VTab:AddButton({
-	Name = "Button!",
+	Name = "Aresenal",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter", true))()
   	end    
 })
 
@@ -622,9 +622,9 @@ Callback = <function> - The function of the button.
 ]]
 
 VTab:AddButton({
-	Name = "Button!",
+	Name = "DarkHub",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet(("https://darkhub.xyz/remote-script.lua"), true))()
   	end    
 })
 
@@ -634,9 +634,9 @@ Callback = <function> - The function of the button.
 ]]
 
 VTab:AddButton({
-	Name = "Button!",
+	Name = "OwlHub",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
   	end    
 })
 
@@ -646,9 +646,9 @@ Callback = <function> - The function of the button.
 ]]
 
 VTab:AddButton({
-	Name = "Button!",
+	Name = "DexHub",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
   	end    
 })
 
@@ -658,33 +658,9 @@ Callback = <function> - The function of the button.
 ]]
 
 VTab:AddButton({
-	Name = "Button!",
+	Name = "Advance Tech",
 	Callback = function()
-      		print("button pressed")
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
-VTab:AddButton({
-	Name = "Button!",
-	Callback = function()
-      		print("button pressed")
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
-VTab:AddButton({
-	Name = "Button!",
-	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/arsenal4.lua"))()
   	end    
 })
 
