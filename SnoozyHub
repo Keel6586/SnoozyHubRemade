@@ -588,3 +588,23 @@ STab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+local VTab = Window:MakeTab({
+	Name = "Aresenal",
+	Icon = "rbxassetid://nil",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = VTab:AddSection({
+	Name = "aresenal🔫"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
