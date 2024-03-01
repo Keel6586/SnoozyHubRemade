@@ -417,7 +417,7 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-local STab = Window:MakeTab({
+local MTab = Window:MakeTab({
 	Name = "Piggy",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
