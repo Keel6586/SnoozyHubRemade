@@ -41,20 +41,6 @@ local Section = DiscordTab:AddSection({
 Name = <string> - The name of the section.
 ]]
 
-OrionLib:MakeNotification({
-    Name = "Welcome to SnoozyHub!",
-    Content = "🗿SnoozyHub🗿",
-    Image = "rbxassetid://nil",
-    Time = 5
-})
-
---[[
-Title = <string> - The title of the notification.
-Content = <string> - The content of the notification.
-Image = <string> - The icon of the notification.
-Time = <number> - The duration of the notfication.
-]]
-
 local BladeBallTab = Window:MakeTab({
 	Name = "BladeBall",
 	Icon = "rbxassetid://nil",
