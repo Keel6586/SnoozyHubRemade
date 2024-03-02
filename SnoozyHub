@@ -683,9 +683,9 @@ Name = <string> - The name of the section.
 ]]
 
 PeTab:AddButton({
-	Name = "Button!",
+	Name = "Vyxnius",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
   	end    
 })
 
@@ -695,9 +695,9 @@ Callback = <function> - The function of the button.
 ]]
 
 PeTab:AddButton({
-	Name = "Button!",
+	Name = "MM2",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/scripts/main/mm2", true))()
   	end    
 })
 
