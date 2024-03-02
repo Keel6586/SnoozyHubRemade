@@ -1,3 +1,10 @@
+game.StarterGui:SetCore("SendNotification", {
+	Title = "SnoozyHub";
+	Text = "Welcome to SnoozyHub";
+	Duration = 60;
+})
+setclipboard("https://discord.gg/t5pzFMPdY4")
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "SnoozyHub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
