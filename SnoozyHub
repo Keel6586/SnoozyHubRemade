@@ -707,9 +707,9 @@ Callback = <function> - The function of the button.
 ]]
 
 PeTab:AddButton({
-	Name = "Button!",
+	Name = "MM2",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Free'))()
   	end    
 })
 
@@ -719,9 +719,9 @@ Callback = <function> - The function of the button.
 ]]
 
 PeTab:AddButton({
-	Name = "Button!",
+	Name = "mm2",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game.HttpGet('https://pastebin.com/raw/LSBQeMSN'))();
   	end    
 })
 
@@ -731,9 +731,9 @@ Callback = <function> - The function of the button.
 ]]
 
 PeTab:AddButton({
-	Name = "Button!",
-	Callback = function()
-      		print("button pressed")
+	Name = "gigaHub",
+	Callback = funtion()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FantZarYT/GigaHub/main/source.lua", true))()
   	end    
 })
 
@@ -743,9 +743,9 @@ Callback = <function> - The function of the button.
 ]]
 
 PeTab:AddButton({
-	Name = "Button!",
+	Name = "EraHub",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Eblan19/875578/main/ERA-Hub"))()
   	end    
 })
 
@@ -755,9 +755,9 @@ Callback = <function> - The function of the button.
 ]]
 
 PeTab:AddButton({
-	Name = "Button!",
+	Name = "MM2",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
   	end    
 })
 
