@@ -3,7 +3,7 @@ game.StarterGui:SetCore("SendNotification", {
 	Text = "Welcome to SnoozyHub";
 	Duration = 60;
 })
-setclipboard("https://discord.gg/t5pzFMPdY4")
+setclipboard("https://discord.gg/hmfwU2kdCk")
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
 
