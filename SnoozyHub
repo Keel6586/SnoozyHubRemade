@@ -1032,9 +1032,9 @@ Callback = <function> - The function of the button.
 ]]
 
 HuTab:AddButton({
-	Name = "Button!",
+	Name = "SnoozyHub (this is a different hub i own)",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://pastebin.com/raw/K8AxrJuL"))();
   	end    
 })
 
@@ -1044,9 +1044,9 @@ Callback = <function> - The function of the button.
 ]]
 
 HuTab:AddButton({
-	Name = "Button!",
+	Name = "Old SnoozyHub",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Keel6586/Keel6586/main/Lua'))()
   	end    
 })
 
