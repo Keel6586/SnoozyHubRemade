@@ -1068,9 +1068,9 @@ Callback = <function> - The function of the button.
 ]]
 
 HuTab:AddButton({
-	Name = "Button!",
+	Name = "UniversalFEScriptHub",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
   	end    
 })
 
