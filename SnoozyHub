@@ -892,9 +892,9 @@ Name = <string> - The name of the section.
 ]]
 
 BrTab:AddButton({
-	Name = "Button!",
+	Name = "Brookhaven Gui",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/BROOKHAVEN-GUI-/main/METAB", true))()
   	end    
 })
 
@@ -904,9 +904,9 @@ Callback = <function> - The function of the button.
 ]]
 
 BrTab:AddButton({
-	Name = "Button!",
+	Name = "Brookhaven Gui",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/woopstwq/ssswool/main/77_ICLH0U4.lua'))()
   	end    
 })
 
@@ -916,9 +916,9 @@ Callback = <function> - The function of the button.
 ]]
 
 BrTab:AddButton({
-	Name = "Button!",
+	Name = "Brookhaven",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/billieroblox/jimmer/main/77_Y9SB89DNYCQF6.lua'))()
   	end    
 })
 
@@ -928,9 +928,9 @@ Callback = <function> - The function of the button.
 ]]
 
 BrTab:AddButton({
-	Name = "Button!",
+	Name = "Brookhaven",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://pastebin.com/raw/AHg2NLqG"))()
   	end    
 })
 
@@ -940,9 +940,9 @@ Callback = <function> - The function of the button.
 ]]
 
 BrTab:AddButton({
-	Name = "Button!",
+	Name = "Brookhaven",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://pastebin.com/raw/QMVVEMTn"))();
   	end    
 })
 
