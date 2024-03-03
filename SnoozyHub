@@ -1068,7 +1068,7 @@ Callback = <function> - The function of the button.
 ]]
 
 local jkTab = Window:MakeTab({
-	Name = "OtherSctipts",
+	Name = "OtherScripts",
 	Icon = "rbxassetid://nil",
 	PremiumOnly = false
 })
@@ -1080,7 +1080,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = jkTab:AddSection({
-	Name = "OtherSctipts🔥"
+	Name = "OtherScripts🔥"
 })
 
 jkTab:AddButton({
@@ -1122,7 +1122,7 @@ Callback = <function> - The function of the button.
 Name = <string> - The name of the section.
 ]]
 
-CreTab:AddButton({
+jkTab:AddButton({
 	Name = "nameless admin",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
@@ -1134,7 +1134,7 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-CreTab:AddButton({
+jkTab:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()
       		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
