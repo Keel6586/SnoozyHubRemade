@@ -1,3 +1,10 @@
+game.StarterGui:SetCore("SendNotification", {
+	Title = "SnoozyHub";
+	Text = "Welcome to SnoozyHub
+	Duration = 30;
+})
+setclipboard("discord.gg/HKxpPFvHkD")
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "SnoozyHub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
@@ -19,7 +26,7 @@ local DiscordTab = Window:MakeTab({
     Icon = "rbxassetid://nil",
     PremiumOnly = false
 })
-setclipboard ("discord.gg/HKxpPFvHkD")
+
 --[[
 Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
