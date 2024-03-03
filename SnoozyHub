@@ -1069,7 +1069,7 @@ Callback = <function> - The function of the button.
 
 local jkTab = Window:MakeTab({
 	Name = "OtherSctipts",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://nil",
 	PremiumOnly = false
 })
 
@@ -1120,4 +1120,48 @@ Callback = <function> - The function of the button.
 ]]
 --[[
 Name = <string> - The name of the section.
+]]
+
+local CreTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = CreTab:AddSection({
+	Name = "Credits"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+CreTab:AddButton({
+	Name = "Owner:Snoozy",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+CreTab:AddButton({
+	Name = "Friends:drakforever, hybrid.dll",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
 ]]
