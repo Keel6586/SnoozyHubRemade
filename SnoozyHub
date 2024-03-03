@@ -787,9 +787,33 @@ Name = <string> - The name of the section.
 ]]
 
 PetsTab:AddButton({
-	Name = "Button!",
+	Name = "ZapHub",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+PetsTab:AddButton({
+	Name = "RedzHub",
+	Callback = function()
+      	        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+PetsTab:AddButton({
+	Name = "SkyHub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))();
   	end    
 })
 
@@ -801,31 +825,7 @@ Callback = <function> - The function of the button.
 PetsTab:AddButton({
 	Name = "Button!",
 	Callback = function()
-      		print("button pressed")
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
-PetsTab:AddButton({
-	Name = "Button!",
-	Callback = function()
-      		print("button pressed")
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
-PetsTab:AddButton({
-	Name = "Button!",
-	Callback = function()
-      		print("button pressed")
+      		loadstring(Game:HttpGet"https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe")()
   	end    
 })
 
