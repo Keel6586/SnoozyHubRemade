@@ -19,7 +19,7 @@ local DiscordTab = Window:MakeTab({
     Icon = "rbxassetid://nil",
     PremiumOnly = false
 })
-setcliboard ("discord.gg/HKxpPFvHkD")
+setclipboard ("discord.gg/HKxpPFvHkD")
 --[[
 Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
