@@ -1122,6 +1122,30 @@ Callback = <function> - The function of the button.
 Name = <string> - The name of the section.
 ]]
 
+CreTab:AddButton({
+	Name = "nameless admin",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+CreTab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 local CreTab = Window:MakeTab({
 	Name = "Credits",
 	Icon = "rbxassetid://4483345998",
