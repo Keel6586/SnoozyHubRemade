@@ -1,3 +1,10 @@
+game.StarterGui:SetCore("SendNotification", {
+	Title = "SnoozyHub";
+	Text = "Welcome To SnoozyHubRemade";
+	Duration = 30;
+})
+setclipboard("https://discord.gg/HKxpPFvHkD")
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "SnoozyHub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
@@ -876,7 +883,7 @@ Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
-local Section = Tab:AddSection({
+local Section = BrTab:AddSection({
 	Name = "Brookhaven🏠"
 })
 
