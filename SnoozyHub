@@ -823,7 +823,7 @@ Callback = <function> - The function of the button.
 ]]
 
 PetsTab:AddButton({
-	Name = "Button!",
+	Name = "ZecromHub",
 	Callback = function()
       		loadstring(Game:HttpGet"https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe")()
   	end    
@@ -835,9 +835,9 @@ Callback = <function> - The function of the button.
 ]]
 
 PetsTab:AddButton({
-	Name = "Button!",
+	Name = "Petsim99",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Somerandomidiot/Lua/main/PS99_Protected.txt"))()
   	end    
 })
 
@@ -847,9 +847,9 @@ Callback = <function> - The function of the button.
 ]]
 
 PetsTab:AddButton({
-	Name = "Button!",
+	Name = "PetSim99",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/PetSimulator99.lua"))()
   	end    
 })
 
@@ -859,9 +859,10 @@ Callback = <function> - The function of the button.
 ]]
 
 PetsTab:AddButton({
-	Name = "Button!",
+	Name = "PetSim99",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JuninhoOGado/ScriptsSite/main/Script227"))()
+  
   	end    
 })
 
