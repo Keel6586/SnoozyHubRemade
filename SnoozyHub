@@ -1173,7 +1173,7 @@ Name = <string> - The name of the section.
 ]]
 
 CreTab:AddButton({
-	Name = "Owner:Snoozy",
+	Name = "Owner:Snoozy FUCK SNOOZY",
 	Callback = function()
       		print("button pressed")
   	end    
@@ -1185,7 +1185,7 @@ Callback = <function> - The function of the button.
 ]]
 
 CreTab:AddButton({
-	Name = "Friends:drakforever, hybrid.dll",
+	Name = "KEEL IS FUCKIN BACK BITCHES",
 	Callback = function()
       		print("button pressed")
   	end    
