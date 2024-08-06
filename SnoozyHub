@@ -1,6 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
 	Title = "info";
-	Text = "No longer will be working on this i will update this when i feel like it";
+	Text = "Yo NEW UPDATE COMING SOON LOL";
 	Duration = 30;
 })
 
