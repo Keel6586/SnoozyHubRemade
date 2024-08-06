@@ -5,7 +5,7 @@ game.StarterGui:SetCore("SendNotification", {
 })
 
 game.StarterGui:SetCore("SendNotification", {
-	Title = "SnoozyHub";
+	Title = "KeelHub";
 	Text = "Join the discord (copied on your clipboard)";
 	Duration = 30;
 })
